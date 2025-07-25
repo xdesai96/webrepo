@@ -7,9 +7,9 @@ import os
 
 app = FastAPI()
 
-GITHUB_USER = ""
-GITHUB_REPO = ""
-GITHUB_BRANCH = ""
+GITHUB_USER = "xdesai96"
+GITHUB_REPO = "modules"
+GITHUB_BRANCH = "main"
 GITHUB_RAW_BASE = (
     f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/{GITHUB_BRANCH}"
 )
